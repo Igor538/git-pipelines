@@ -1,0 +1,8 @@
+stages:
+  - test
+
+test_job:
+  stage: test
+  image: python:3.11
+  script:
+    - python -c "print('Pipeline GitLab CI funcionando!')"
