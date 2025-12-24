@@ -1,4 +1,4 @@
-# Módulo 12 – Git, GitHub e CI/CD
+# Git-Pipelines – Git, GitHub e CI/CD
 
 Este repositório foi criado como parte dos exercícios do Módulo 12, com foco em versionamento de código, uso de branches, integração contínua (CI) e entrega contínua (CD).
 
