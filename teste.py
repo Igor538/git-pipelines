@@ -1,1 +1,1 @@
-print("Testando CI/CD")
+print("Testando CI/CD - bug corrigido")
