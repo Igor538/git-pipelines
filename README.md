@@ -39,41 +39,13 @@ Foi configurado um pipeline de Integração Contínua utilizando **GitHub Action
 
 Arquivo:
 ```
-.github/workflows/python-ci.yml
+.github/workflows/django.yml
 ```
 
 ---
 
-## 🔁 CI/CD com Bitbucket Pipelines
 
-Também foi configurado um pipeline equivalente utilizando **Bitbucket Pipelines**, com etapas de:
-
-- Execução de testes
-- Simulação de deploy automático
-- Mensagens de status do pipeline
-
-Arquivo:
-```
-bitbucket-pipelines.yml
-```
-
----
-
-## 🔔 Notificações (Exercício 28)
-
-A integração com ferramentas de comunicação como Slack ou Microsoft Teams foi **simulada** dentro dos pipelines, demonstrando como alertas automáticos podem ser enviados ao final da execução do CI/CD.
-
----
-
-## 🌐 Webhook (Exercício 27)
-
-Foi realizada a tentativa de configuração de webhook no GitHub para notificação de eventos de push, utilizando o serviço webhook.site para testes.
-
-Apesar de limitações no ambiente de teste, o conceito e o funcionamento do webhook foram compreendidos e documentados.
-
----
-
-## 🚀 Deploy Manual (Exercício 29)
+## 🚀 Deploy Manual
 
 Foi criado um script de deploy manual para simular o processo de implantação do projeto.
 
@@ -86,11 +58,3 @@ O script executa:
 - Verificação do ambiente
 - Simulação de testes
 - Simulação de deploy
-
----
-
-## 📄 Conclusão
-
-Este projeto demonstra a aplicação prática de versionamento com Git, integração contínua e entrega contínua (CI/CD), utilizando ferramentas amplamente adotadas no mercado.
-
-Todos os exercícios do módulo foram implementados e documentados conforme proposto.
